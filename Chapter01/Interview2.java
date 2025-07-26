@@ -22,7 +22,7 @@ public class Interview2 {
         }
 
         //Second Method
-        int n=number.length;
+        // int n=number.length;
         Arrays.sort(number);
         int count=1;
         for(int i=1;i<n;i++){
@@ -38,8 +38,8 @@ public class Interview2 {
 
         //Third Method
         //Moore's Voting Algorithm
-        int n=number.length;
-        int count=0;
+        // int n=number.length;
+        // int count=0;
         int cand=0;
         for(int i=0;i<n;i++){
             if (count==0) {
